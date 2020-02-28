@@ -44,5 +44,5 @@ InputFormat=3 ; Packed 11-bit
 la doccumentation pour l'installation est disponnible sur le site du constructeur: [ici](https://astra-wiki.readthedocs.io/en/latest/examples.html#depth-stream-using-python-and-opencv)
 
 - numpy: `sudo pip3 install numpy`
-- opencv: `sudo pip3 install opencv-python`
+- opencv: `sudo apt install python3-opencv`
 - openni: `sudo pip3 install openni`
