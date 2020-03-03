@@ -64,9 +64,7 @@ class FrameCounter:
 
 try:
     # init openni
-    openni_root = 'AstraSDK-v2.0.19-1793e6b2ca-20191224T065800Z-Linux'
-    openni_lib = os.path.realpath(openni_root + '/lib/Plugins/openni2')
-    openni2.initialize(openni_lib)
+    openni2.initialize()
     print('Openni2 initialized')
     # init variables
     device          = None
